@@ -20,9 +20,7 @@
 	<script src="lib/jstree.min.js"></script>
 	
 	<script>
-	// html demo
-	$('#html').jstree();
-
+	
 	// lazy demo
 	$('#lazy').jstree({
 		'core' : {
@@ -33,6 +31,9 @@
 				}
 			}
 		}
+	});
+	$('#lazy').on("changed.jstree", function (e, data) {
+		console.log(data.selected);
 	});
 	</script>
 </body>

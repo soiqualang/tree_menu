@@ -17,6 +17,8 @@ https://www.jstree.com/fiddle/?lazy&id=2
 ["Child node 3","Child node 4"]
 ```
 
+https://github.com/vakata/jstree
+
 https://www.jstree.com/
 
 https://www.phpflow.com/jquery-plugin-2/10-most-popular-jquery-tree-menu-plugin/
